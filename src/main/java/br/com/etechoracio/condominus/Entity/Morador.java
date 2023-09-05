@@ -18,7 +18,7 @@ public class Morador {
     private String Nome;
 
     @Column(name = "cpf_morador")
-    private String cpf;
+    private char cpf;
 
     @Column(name = "telefone_morador")
     private String telefone;

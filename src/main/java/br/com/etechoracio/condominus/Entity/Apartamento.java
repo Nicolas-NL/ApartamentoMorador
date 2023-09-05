@@ -20,9 +20,5 @@ public class Apartamento {
     private String telefone;
     @Column(name = "numero")
     private String numero;
-    @JoinColumn(name = "id_condominio_apart")
-    @ManyToOne
-    private Condominio condominio;
-
 }
 
